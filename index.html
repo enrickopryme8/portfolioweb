@@ -17,6 +17,9 @@
     <!-- Start navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow fixed-top">
       <div class="container">
+        <!-- Brand name on the left -->
+        <a class="navbar-brand" href="https://wa.me/6285198814763">ENRICKO, S.KOM</a>
+
         <!-- Toggler button for mobile view -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,28 +27,26 @@
 
         <!-- Collapsible navbar items -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <!-- Language switch and navbar items on the left -->
-          <div class="d-flex align-items-center">
-            <div class="form-check form-switch me-3">
-              <input class="form-check-input" type="checkbox" id="languageSwitch" />
-              <label class="form-check-label" for="languageSwitch">EN/ID</label>
-            </div>
-
-            <ul class="navbar-nav">
+          <div class="ms-auto d-flex align-items-center">
+            <!-- Navbar items on the right -->
+            <ul class="navbar-nav me-3">
               <li class="nav-item">
-                <a class="nav-link" href="#Projects" data-lang="navbar-mp">My Projects</a>
+                <a class="nav-link active" aria-current="page" href="#" data-lang="navbar-home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about" data-lang="navbar-am">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" data-lang="navbar-home">Home</a>
+                <a class="nav-link" href="#Projects" data-lang="navbar-mp">My Projects</a>
               </li>
             </ul>
-          </div>
 
-          <!-- Brand name on the right -->
-          <a class="navbar-brand ms-auto" href="https://wa.me/6285198814763">ENRICKO, S.KOM</a>
+            <!-- Language switch -->
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="languageSwitch" />
+              <label class="form-check-label" for="languageSwitch">EN/ID</label>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
